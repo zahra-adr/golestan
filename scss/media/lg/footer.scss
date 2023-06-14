@@ -1,0 +1,73 @@
+footer{
+    width: 100%;
+    background-color: rgb(15%, 15%, 15%);
+    >div:nth-of-type(1){
+        width: 100%;
+        background-color: rgb(15%, 15%, 15%);
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        >div{
+            width: 22%;
+            padding: 2%;
+            >img{
+                width: 100px;
+                height: 85px;
+                margin-right: 12%;
+            }
+            >h2{
+                width: 80%;
+                text-align: center;
+                padding: 3%;
+                border-bottom: 1px solid grey;
+                border-top: 1px solid grey;
+                margin-bottom: 4%;
+                font-family: yekan;
+                font-size: 20px;
+                color:white;
+            }
+            >ul{
+                width: 100%;
+                text-decoration: none;
+                >li{
+                    font-family: iransans;
+                    font-size: 15px;
+                    color: grey;
+                    >a{
+                        display: block;
+                        padding: 1% 6%;
+                        text-align: 15px;
+                        text-decoration: none;
+                        font-family: iransans;
+                        font-size: 15px;
+                        color: grey;
+                        &:hover{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }        
+    }
+    >div:nth-of-type(2){
+        width: 100%;
+        background-color: rgb(15%, 15%, 15%);
+        margin-top: 7% ;
+        >h2{
+            width: 100%;
+            text-align: center;
+            font-family: yekan;
+            font-size: 20px;
+            color: grey;
+        }
+        >h3{
+            width: 100%;
+            text-align: center;
+            padding-bottom: 5%;
+            margin-bottom: 2%;
+            font-family: yekan;
+            font-size: 16px;
+            color: grey;
+        }
+     }
+}

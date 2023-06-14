@@ -1,0 +1,144 @@
+div.product{
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative;
+    top:80px;
+    >div.tea{
+        width: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        background-color: #e3e3e3 ;
+        >div:nth-of-type(1){
+            width: 60%;
+            padding:20% 15% 15% 0 ;
+            >h1{
+                width: fit-content;
+                color: red;
+                font-family: yekan;
+                font-size: 28px;
+                
+            }
+            >h2{
+                width: fit-content;
+                color: gray;
+                font-family: iransans-medium;
+                font-size: 18px;
+                padding: 2px;
+            }
+            >p{
+                margin: 20px 0 30px 0;
+                width: 70%;
+                color: gray;
+                font-size: 18px;
+                font-family: iransans;
+                padding: 2px;
+                text-align: justify;
+            }
+            >a{
+                display: block;
+                width: fit-content;
+                color: gray;
+                font-family: iransans-medium;
+                font-size: 16px;
+                padding: 10px 15px;
+                background-color: whitesmoke;
+                text-decoration: none;
+                line-height: 20px;
+                border: 1px solid grey;
+                border-radius: 10px;
+                transition: 300ms;
+                &:hover{
+                    background-color: rgb(214, 34, 34);
+                    color: white;
+                }
+            }
+        }
+        >div:nth-of-type(2){
+            width: 40%;
+            padding-left: 5%;
+            padding-top: 10%;
+            >img{
+                width: 100%;
+            }
+        }
+    }
+    >div.introduction{
+        width: 100%;
+        background-color: whitesmoke;
+        margin-top: 20px;
+        border-top: 1px solid gray;
+        padding: 2% 3%;
+        >div.child-1{
+            width: inherit;
+            padding: 2%;
+            >h2{
+                font-family: iransans;
+                font-size: 20px;
+                color: red;
+                margin-bottom: 10px;
+            }
+            >p{
+                line-height: 35px;
+                font-family: iransans;
+                font-size: 17px;
+                color: gray;
+                text-align: justify;
+                margin-bottom: 30px;
+                >span{
+                    font-family: iransans;
+                    font-size: 18px;
+                    color: red;
+                }
+            }
+        }
+        >div.child-2{
+            width: inherit;
+            padding: 2%;
+            >h2{
+                font-family: iransans;
+                font-size: 20px;
+                color: red;
+                margin-bottom: 15px;
+            }
+            >p{
+                font-family: iransans;
+                line-height: 35px;
+                font-size: 17px;
+                color: gray;
+                text-align: justify;
+                margin-bottom: 100px;
+                >span{
+                    font-family: iransans;
+                    font-size: 18px;
+                    color: red;
+                }
+            }
+        }
+        >div.child-3{
+            width: 100%;
+            display: flex;
+            flex-flow: row-reverse wrap;
+            justify-content: space-around;
+            padding-bottom: 10%;
+            >div{
+                width: 20%;
+                text-align: center;
+                margin-left: 30px;
+                >img{
+                    width: 180px;
+                    height: 180px;
+                }
+                >h2{
+                    width: 100%;
+                    padding: 10px;
+                    font-family: yekan;
+                    font-size: 16px;
+                    font-weight: normal;
+                    color: gray;
+                    border-bottom: 1px solid lightgray;
+                }
+            }
+        }
+    }
+}

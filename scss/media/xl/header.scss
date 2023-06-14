@@ -1,0 +1,95 @@
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 10;
+    position: fixed;
+    >div.logo{
+        width: 20%;
+        height: inherit;
+        position: relative;
+        >a{
+            width: 100%;
+            height: inherit;
+            display: block;
+         >img{
+            width:130px;
+            height: 80px;
+            position: absolute;
+            left: 50px;
+            top: calc(100% - 90px/2);
+         }
+        }
+    }
+    >nav{
+        width: 80%;
+        height: inherit;
+        >#close , #open{
+            display: none;
+        }
+        >ul{
+            display: flex;
+            flex-grow: row wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 80%;
+            height: inherit;
+            >li{
+                &:not(:last-of-type){
+                border-left: 1px solid gray;
+                }
+                width: 100%;
+                height: 50%;
+                &:hover>ul{
+                        display: block;
+                    }
+                >ul{
+                   width: calc(60% * 2);
+                   height: auto;
+                   display: none;
+                   transition: 300ms;
+                   >li{
+                    width: inherit;
+                    height: auto;
+                    >a{
+                        width: inherit;
+                        height: auto;
+                        line-height: 40px;
+                        text-decoration: none;
+                        font-family: iransans;
+                        font-size: 14px;
+                        font-weight: bold;
+                        text-align: center;
+                        color: gray;
+                        display: block;
+                        background-color: #3b3b3b;
+                        transition: 300ms;
+                    }    
+                    &:hover>a{
+                        color: var(--bg-w);
+                    }
+                   }
+                }
+                >a{
+                    display: inline-block;
+                    width: inherit;
+                    height: 100%;
+                    padding: 5px;
+                    line-height: 40px;
+                    text-decoration: none;
+                    font-size: 14px;
+                    font-family: iransans;
+                    font-weight: bold;
+                    text-align: center;
+                    color: gray;
+                    transition: 300ms;
+                }
+                &:hover>a{
+                        color: var(--bg-w);
+                    }
+            } 
+        }
+    }
+}

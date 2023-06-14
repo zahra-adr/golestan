@@ -1,0 +1,161 @@
+div.Responsibility {
+  width: 100%;
+  background-color: whitesmoke; }
+  div.Responsibility > div.video {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 5%; }
+    div.Responsibility > div.video > div {
+      width: 30%;
+      padding-bottom: 3%;
+      background-color: whitesmoke;
+      box-shadow: -3px 3px 5px grey; }
+      div.Responsibility > div.video > div > video {
+        width: 100%; }
+      div.Responsibility > div.video > div > h2 {
+        width: 100%;
+        padding: 0 6% 0 10%;
+        margin: 2% 1% 1% 1%;
+        font-family: yekan;
+        font-weight: normal;
+        font-size: 22px;
+        color: red; }
+      div.Responsibility > div.video > div > p {
+        width: 100%;
+        height: 150px;
+        line-height: 30px;
+        padding: 0 6% 0 10%;
+        margin: 1%;
+        font-family: iransans;
+        font-weight: normal;
+        font-size: 16px;
+        color: grey;
+        text-align: justify; }
+      div.Responsibility > div.video > div > a {
+        width: fit-content;
+        text-decoration: none;
+        line-height: 35px;
+        padding: 2% 5% 2% 5%;
+        margin: 1% 6% 1% 1%;
+        font-family: iransans;
+        font-weight: normal;
+        font-size: 17px;
+        color: grey;
+        border: 1px solid grey;
+        border-radius: 10px;
+        background-color: whitesmoke; }
+        div.Responsibility > div.video > div > a:hover {
+          background-color: #d62222;
+          color: white; }
+  div.Responsibility > div.social {
+    width: 100%;
+    background-color: whitesmoke; }
+    div.Responsibility > div.social > div:nth-of-type(1) {
+      width: 100%;
+      text-align: center;
+      padding-top: 20%;
+      padding-bottom: 1.5%;
+      background-color: #105153;
+      border-bottom: 1px solid #05a0a5; }
+      div.Responsibility > div.social > div:nth-of-type(1) > h2 {
+        width: 100%;
+        font-family: yekan;
+        font-size: 20px;
+        color: #d5ece1; }
+    div.Responsibility > div.social > div:nth-of-type(2) {
+      width: 100%;
+      text-align: center;
+      padding-top: 2%;
+      padding-bottom: 20%;
+      background-color: #105153; }
+      div.Responsibility > div.social > div:nth-of-type(2) > h2 {
+        width: 100%;
+        font-family: yekan;
+        font-size: 20px;
+        color: #00d8df; }
+        div.Responsibility > div.social > div:nth-of-type(2) > h2 > span {
+          font-family: yekan;
+          font-size: 29px;
+          color: #009da2; }
+      div.Responsibility > div.social > div:nth-of-type(2) > h3 {
+        width: 100%;
+        font-family: yekan;
+        font-size: 17px;
+        color: #bcbec0;
+        margin-bottom: 1%; }
+    div.Responsibility > div.social > div:nth-of-type(3) {
+      width: 100%;
+      height: 30px;
+      margin-bottom: 30px;
+      position: relative;
+      background-color: #e9d69f; }
+      div.Responsibility > div.social > div:nth-of-type(3) > img {
+        width: 360px;
+        height: 350px;
+        box-shadow: -2px 2px 6px lightgray;
+        position: absolute;
+        top: calc(100% - 270px);
+        left: calc(50% - 360px / 2); }
+    div.Responsibility > div.social > div:nth-of-type(4) {
+      width: 100%;
+      border-top: 1px solid gray;
+      padding: 4% 18%; }
+      div.Responsibility > div.social > div:nth-of-type(4) > h2 {
+        width: 100%;
+        color: red;
+        font-family: yekan;
+        font-size: 22px;
+        padding: 2%; }
+      div.Responsibility > div.social > div:nth-of-type(4) > p {
+        width: 100%;
+        color: grey;
+        font-size: 17px;
+        font-family: iransans;
+        font-weight: normal;
+        text-align: justify;
+        line-height: 33px;
+        padding: 2%;
+        margin-bottom: 3%; }
+        div.Responsibility > div.social > div:nth-of-type(4) > p > span {
+          color: red;
+          font-size: 18px;
+          font-family: yekan; }
+      div.Responsibility > div.social > div:nth-of-type(4) > a {
+        display: block;
+        width: fit-content;
+        line-height: 30px;
+        margin: 1.5%;
+        padding: 1% 1.5%;
+        text-decoration: none;
+        border: 1px solid grey;
+        border-radius: 10px;
+        color: grey;
+        font-size: 18px;
+        font-family: iransans; }
+        div.Responsibility > div.social > div:nth-of-type(4) > a:hover {
+          background-color: #d62222;
+          color: white; }
+    div.Responsibility > div.social > div:nth-of-type(5) {
+      width: 100%;
+      background-color: lightgray;
+      padding: 2%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center; }
+      div.Responsibility > div.social > div:nth-of-type(5) > a {
+        width: 60px;
+        height: 60px;
+        transition: 300ms;
+        text-decoration: none; }
+        div.Responsibility > div.social > div:nth-of-type(5) > a > img {
+          width: 60px;
+          height: 60px;
+          background-color: lightgray; }
+        div.Responsibility > div.social > div:nth-of-type(5) > a:hover > img {
+          mix-blend-mode: lighten; }
+    div.Responsibility > div.social > div:nth-of-type(6) {
+      width: 100%;
+      height: 20px;
+      background-color: red; }

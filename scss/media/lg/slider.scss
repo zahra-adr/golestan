@@ -1,0 +1,280 @@
+div.slider{
+    width: 100%;
+    background-color: whitesmoke;
+    border-top: 1px solid #2b2b2b;
+    padding-top: 2%;
+    div.slide{
+        width: 100%;
+        height: 40px;
+        position: relative;
+        margin-top: -2%;
+        background-color: #e9d69f;
+        >h2{
+            padding: 15px 15px 15px 60px;
+            width: 25%;
+            height: 100px;
+            background-color: rgb(234, 53, 53);
+            color: white;
+            font-weight: normal;
+            font-family: yekan;
+            font-size: 26px;
+            position: absolute;
+            top: calc(100% - 100px);
+            left: 54%;
+            >span{
+                display: block;
+                font-size: 20px;
+                font-weight: normal;
+                font-family: iransans;
+            }
+        }
+    }
+    >div.slider-1{
+        width: 100%;
+        position: relative;
+        >img{
+            width: 100%;
+        }
+        >h3{
+            margin-top: 5%;
+            padding: 2% 22% 0 22%;
+            width: 100%;
+            border-top: 1px solid #2b2b2b;
+            color: red;
+            font-family: yekan;
+            font-weight: normal;
+            font-size: 22px;
+        }
+        >p{
+            margin-top: 1%;
+            padding: 0 22% 1% 22%;
+            width: 100%;
+            color: gray;
+            line-height: 35px;
+            font-family: iransans;
+            font-weight: normal;
+            text-align: justify;
+            font-size: 16px;
+        }
+        >a{
+            display: inline-block;
+            text-decoration: none;
+            padding: 0 2% 0 2%;
+            width: fit-content;
+            background-color: whitesmoke;
+            border: 1px solid #2b2b2b;
+            border-radius: 8px;
+            color: gray;
+            line-height: 45px;
+            font-family: iransans;
+            font-weight: normal;
+            text-align: justify;
+            font-size: 16px;
+            &:hover{
+                background-color: rgb(214, 34, 34);
+                color: white;
+            }
+        }
+        >a:nth-of-type(1){
+            margin: 1% 22% 5% 0.1%;
+        }
+    }
+    >div.slider-2{
+        width: 100%;
+        position: relative;
+        >img{
+            width: 100%;
+        }
+        >h3{
+            margin-top: 5%;
+            padding: 2% 22% 0 22%;
+            width: 100%;
+            border-top: 1px solid #2b2b2b;
+            color: red;
+            font-family: yekan;
+            font-weight: normal;
+            font-size: 22px;
+        }
+        >p{
+            margin-top: 1%;
+            padding: 0 22% 1% 22%;
+            width: 100%;
+            color: gray;
+            line-height: 35px;
+            font-family: iransans;
+            font-weight: normal;
+            text-align: justify;
+            font-size: 16px;
+            >span{
+                color: red;
+            }
+        }
+        >a{
+            display: inline-block;
+            text-decoration: none;
+            padding: 0 2% 0 2%;
+            width: fit-content;
+            background-color: whitesmoke;
+            border: 1px solid #2b2b2b;
+            border-radius: 8px;
+            color: gray;
+            line-height: 45px;
+            font-family: iransans;
+            font-weight: normal;
+            text-align: justify;
+            font-size: 16px;
+            &:hover{
+                background-color: rgb(214, 34, 34);
+                color: white;
+            }
+        }
+        >a:nth-of-type(1){
+            margin: 1% 22% 5% 0.1%;
+        }
+    }
+    >div.slider-3{
+        width: 100%;
+        position: relative;
+        >img{
+            width: 100%;
+        }
+        >h3{
+            margin-top: 5%;
+            padding: 2% 22% 0 22%;
+            width: 100%;
+            border-top: 1px solid #2b2b2b;
+            color: red;
+            font-family: yekan;
+            font-weight: normal;
+            font-size: 22px;
+        }
+        >p{
+            margin-top: 1%;
+            padding: 0 22% 1% 22%;
+            width: 100%;
+            color: gray;
+            line-height: 35px;
+            font-family: iransans;
+            font-weight: normal;
+            text-align: justify;
+            font-size: 16px;
+            >span{
+                color: red;
+            }
+        }
+        >a{
+            display: inline-block;
+            text-decoration: none;
+            padding: 0 2% 0 2%;
+            width: fit-content;
+            background-color: whitesmoke;
+            border: 1px solid #2b2b2b;
+            border-radius: 8px;
+            color: gray;
+            line-height: 45px;
+            font-family: iransans;
+            font-weight: normal;
+            text-align: justify;
+            font-size: 16px;
+            &:hover{
+                background-color: rgb(214, 34, 34);
+                color: white;
+            }
+        }
+        >a:nth-of-type(1){
+            margin: 1% 22% 5% 0.1%;
+        }
+    }
+    >div.baner{
+        width: 100%;
+        height: 300px;
+        background-image: url('../../../images/slider/baner.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    >div.slider-4{
+        width: 100%;
+        background-color: whitesmoke;
+        >div:nth-of-type(1){
+            width: 100%;
+            padding: 2% 10% 3% 10%;
+            background-color: whitesmoke;
+            >h2{
+            width: 100%;
+            background-color: whitesmoke;
+            color: red;
+            font-family: yekan;
+            font-weight: normal;
+            font-size: 20px;
+            >span{
+                font-size: 16px;
+                font-family: iransans;
+                font-weight: normal;
+                color: gray;
+            }
+        }
+      }
+      >div:nth-of-type(2){
+        width: 100%;
+        background-color: rgb(80%, 89%, 69%);
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        >div{
+            width: 25%;
+            padding: 0 0 5% 0;
+            margin: 5% 0 5% 1%;
+            background-color: whitesmoke;
+            >img{
+                width: 100%;
+            }
+            >h2{
+            width: 90%;
+            background-color: whitesmoke;
+            color: red;
+            font-family: yekan;
+            font-weight: normal;
+            font-size: 20px;
+            padding: 2% 10% 2% 2%;
+            margin: 1%;
+            }
+            >p{
+                width: 90%;
+                height: 150px;
+                line-height: 25px;
+                background-color: whitesmoke;
+                color: gray;
+                font-family: iransans;
+                font-weight: normal;
+                font-size: 15px;
+                text-align: justify;
+                padding: 2% 10% 2% 2%;
+                margin: 2%;
+                }
+                >a{
+                    display: block;
+                    text-decoration: none;
+                    width: fit-content;
+                    background-color: whitesmoke;
+                    color: gray;
+                    border: 1px solid lightgray;
+                    border-radius: 10px;
+                    font-family: iransans;
+                    font-weight: normal;
+                    font-size: 15px;
+                    text-align: justify;
+                    padding: 2% 6% 2% 6%;
+                    margin: 3% 10%;
+                    line-height: 25px;
+                    transition: 300ms;
+                    &:hover{
+                        background-color: rgb(214, 34, 34);
+                        color: white;
+                    }
+                    }
+        }
+      }
+    }
+}

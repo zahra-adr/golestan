@@ -1,0 +1,7 @@
+@import url("./media/setting.css");
+@import url("./media/xxl/xxl.css") screen and (min-width: 1400px);
+@import url("./media/xl/xl.css") screen and (min-width: 1200px) and (max-width: 1400px);
+@import url("./media/lg/lg.css") screen and (min-width: 992px) and (max-width: 1200px);
+@import url("./media/md/md.css") screen and (min-width: 768px) and (max-width: 992px);
+@import url("./media/sm/sm.css") screen and (min-width: 576px) and (max-width: 768px);
+@import url("./media/xs/xs.css") screen and (max-width: 576px);
